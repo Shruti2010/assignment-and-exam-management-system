@@ -1,0 +1,101 @@
+Assignment & Exam Management System
+
+Industry: Education (Learning Management & Academic Performance)
+
+Project Type: B2C Salesforce CRM Implementation (Student-centric
+academic workflow management)
+
+Target Users: - Students – for submitting assignments, viewing grades,
+and receiving deadline alerts - Teachers – for managing assignments,
+exams, evaluations, and grading - Academic Administrators – for
+analyzing student performance, grade trends, and academic outcomes
+
+1.  Problem Statement In educational institutions, managing assignments,
+    exams, and grading manually is tedious and prone to delays. Teachers
+    face challenges in tracking submissions and ensuring timely
+    evaluations, while students often miss deadlines due to a lack of
+    reminders. Administrators struggle to analyze performance trends and
+    provide timely interventions. Therefore, there is a need for an
+    automated system that centralizes assignment and exam workflows,
+    ensures transparent grading, and delivers actionable insights for
+    all stakeholders.
+
+2.  Project Overview The Assignment & Exam Management System is a
+    Salesforce-based solution designed to assist teachers, students, and
+    administrators in streamlining academic workflows. It enables:
+
+-   Teachers to create and manage assignments and exams.
+-   Students to submit assignments, track grades, and receive
+    notifications.
+-   Automatic calculation of grades based on exams and assignments.
+-   Notifications for upcoming deadlines and exams.
+-   Reports and dashboards to track performance and grade trends.
+
+By digitizing these processes, the system reduces manual errors, ensures
+accountability, and enhances transparency in academic performance
+monitoring.
+
+3.  Business Requirements
+
+-   Enable teachers to create and manage assignments and exams.
+-   Allow students to submit assignments and view their grades.
+-   Track and calculate grades automatically from assignments and exams.
+-   Send reminders for upcoming deadlines and scheduled exams.
+-   Generate reports on student performance, deadlines, and grade
+    distributions.
+
+4.  Use Cases
+
+-   A teacher adds a new assignment with a due date for a specific
+    course.
+-   Students receive reminders when an assignment is due within 24
+    hours.
+-   Students submit assignments through the system and marks are
+    recorded.
+-   Teachers schedule exams, record marks, and generate grades
+    automatically.
+-   Administrators and teachers generate performance reports per course
+    and overall grade distribution.
+
+5.  Innovative Use of Salesforce
+
+-   Custom Objects (Assignments, Exams, Submissions, Grades) for
+    flexible academic data modeling.
+-   Flows to automate notifications for upcoming deadlines and
+    performance alerts.
+-   Email/SMS Integration (e.g., Twilio) for assignment reminders and
+    exam schedules.
+-   Reports & Dashboards for analyzing student performance, grade
+    trends, and risk identification.
+-   Experience Cloud Extension for students to securely log in, submit
+    assignments, and view grades.
+-   Einstein Analytics (AI) to predict student performance trends based
+    on past results.
+
+6.  Objectives
+
+7.  Centralize Academic Task Management Provide a unified platform for
+    teachers to create, manage, and monitor assignments and exams.
+
+8.  Enable Seamless Student Submissions Allow students to upload
+    assignments and receive confirmation within Salesforce.
+
+9.  Automate Grading & Performance Tracking Calculate marks and generate
+    grade letters automatically, minimizing manual effort.
+
+10. Enhance Academic Transparency Offer students real-time visibility
+    into their assignment/exam results and course performance.
+
+11. Streamline Notifications & Reminders Send automated alerts for
+    upcoming assignments, approaching deadlines, and scheduled exams.
+
+12. Generate Actionable Insights via Reports Provide dashboards for
+    teachers/administrators on performance trends, pending submissions,
+    and grade distributions.
+
+13. Promote Student Accountability Track academic progress over time and
+    identify students needing additional support.
+
+14. Innovative Use of Salesforce Leverage Salesforce Flow, Reports,
+    Dashboards, and Automation tools to deliver LMS-like functionality
+    in CRM.
