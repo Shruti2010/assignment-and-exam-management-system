@@ -1,0 +1,18 @@
+Phase 1 Completion report on Assignment & Exam Management System
+
+--Requirement Gathering:
+The project aims to understand the needs of students, teachers, and academic administrators. Requirement gathering involved identifying core functionalities like assignment submission, grade tracking, and performance reports.
+
+--Stakeholder Analysis:
+Key stakeholders include students, teachers, and academic administrators. Each group has specific requirements: students need access to grades and alerts, teachers need tools to create/manage assignments and exams, and administrators require performance insights and reports.
+
+--Business Process Mapping:
+The academic workflows were mapped, including assignment creation, submission, grading, reporting, and communication. Automation and streamlined processes are designed to ensure efficiency and reduce manual tasks.
+
+--Industry-specific Use Case Analysis:
+The system addresses common educational challenges such as assignment tracking, performance evaluation, and student engagement. Specific use cases like timely reminders, grade calculations, and reporting were analyzed for implementation.
+
+--AppExchange Exploration:
+Explored Salesforce AppExchange for extensions and integrations such as third-party SMS/email services and analytics tools. These enhance communication and reporting capabilities within the platform.
+
+This phase laid the foundation for designing the Assignment & Exam Management System by clearly defining the problem, understanding stakeholder needs, and exploring Salesforce’s ecosystem for effective implementation.
