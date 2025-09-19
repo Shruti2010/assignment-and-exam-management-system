@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Send_Welcome_Email_to_new_Student</fullName>
+        <description>Send Welcome Email to new Student</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Student_Welcome_Template_1758167868105</template>
+    </alerts>
+    <rules>
+        <fullName>Send_Welcome_Email</fullName>
+        <actions>
+            <name>Send_Welcome_Email_to_new_Student</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>NOT(ISBLANK(Email__c))</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

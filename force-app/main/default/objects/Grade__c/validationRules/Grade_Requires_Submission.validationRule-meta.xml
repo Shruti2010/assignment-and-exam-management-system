@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grade_Requires_Submission</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(Submission__c)</errorConditionFormula>
+    <errorDisplayField>Submission__c</errorDisplayField>
+    <errorMessage>Grade must be linked to a Submission.</errorMessage>
+</ValidationRule>

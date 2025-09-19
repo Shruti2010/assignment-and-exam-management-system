@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assignment_MaxMarks_Positive</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+  ISBLANK(Max_Marks__c),
+  Max_Marks__c &lt;= 0
+)</errorConditionFormula>
+    <errorDisplayField>Max_Marks__c</errorDisplayField>
+    <errorMessage>Max Marks must be greater than 0.</errorMessage>
+</ValidationRule>

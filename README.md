@@ -37,28 +37,44 @@ Design data models and define relationships to manage assignments, exams, grades
 
 ---
 
+## ✅ Phase 4 – Process Automation (Admin)
+
+*Objective:*  
+Implement process automation to enforce data integrity, automate notifications, and enhance user efficiency using Salesforce tools such as Validation Rules, Workflow Rules, Flow Builder, and Email Alerts.
+
+*Key Inclusions:*  
+- **Validation Rules:** Applied to Student, Guardian, Assignment, Exam, Grade, and Submission objects to maintain consistent and accurate data entry.  
+- **Workflow Rule:** Automated *Send_Welcome_Email* workflow configured for student onboarding.  
+- **Flow Builder:** Record-triggered flows for assignment grading notifications, assignment reminders, exam timetable notifications, and late submission alerts.  
+- **Email Alerts:** Automated messages linked to workflows and flows for effective communication.  
+
+*Files Saved:*  
+📂 [Steps_Completion/Phase_4_Completion_Report.pdf](Steps_Completion/Phase_4_Completion_Report.pdf) – PDF report for Phase 4  
+📂 [Steps_Completion/Phase_4_Completion_Readme.md](Steps_Completion/Phase_4_Completion_Readme.md) – Markdown documentation for Phase 4
+
+---
+
 ## 📂 File Locations
 
-The completed phase reports and documentation are saved in the Steps_Completion directory:
+The completed phase reports and documentation are saved in the **Steps_Completion** directory:
 
-- 📂 [Steps_Completion/Phase_1_Completion_Report.pdf](Steps_Completion/Phase_1_Completion_Report.pdf) – PDF report for Phase 1  
-- 📂 [Steps_Completion/Phase_1_Completion_Readme.md](Steps_Completion/Phase_1_Completion_Readme.md) – Markdown documentation for Phase 1  
-- 📂 [Steps_Completion/Phase_2_Completion_Report.pdf](Steps_Completion/Phase_2_Completion_Report.pdf) – PDF report for Phase 2  
-- 📂 [Steps_Completion/Phase_2_Completion_Readme.md](Steps_Completion/Phase_2_Completion_Readme.md) – Markdown documentation for Phase 2  
-- 📂 [Steps_Completion/Phase_3_Completion_Report.pdf](Steps_Completion/Phase_3_Completion_Report.pdf) – PDF report for Phase 3  
-- 📂 [Steps_Completion/Phase_3_Completion_Readme.md](Steps_Completion/Phase_3_Completion_Readme.md) – Markdown documentation for Phase 3
-
+- 📂 [Steps_Completion/Phase_1_Completion_Report.pdf](Steps_Completion/Phase_1_Completion_Report.pdf)  
+- 📂 [Steps_Completion/Phase_1_Completion_Readme.md](Steps_Completion/Phase_1_Completion_Readme.md)  
+- 📂 [Steps_Completion/Phase_2_Completion_Report.pdf](Steps_Completion/Phase_2_Completion_Report.pdf)  
+- 📂 [Steps_Completion/Phase_2_Completion_Readme.md](Steps_Completion/Phase_2_Completion_Readme.md)  
+- 📂 [Steps_Completion/Phase_3_Completion_Report.pdf](Steps_Completion/Phase_3_Completion_Report.pdf)  
+- 📂 [Steps_Completion/Phase_3_Completion_Readme.md](Steps_Completion/Phase_3_Completion_Readme.md)  
+- 📂 [Steps_Completion/Phase_4_Completion_Report.pdf](Steps_Completion/Phase_4_Completion_Report.pdf)  
+- 📂 [Steps_Completion/Phase_4_Completion_Readme.md](Steps_Completion/Phase_4_Completion_Readme.md)  
 ---
 
 ## 📌 Next Steps
 
-With Phase 1, Phase 2, and Phase 3 completed, the project is ready to proceed to further phases, focusing on:
+With Phase 1 through Phase 4 completed, the project is now ready to progress into:
 
-- Workflow automation and notifications  
-- Reporting and analytics for assignment and exam management  
-- User interface refinement and testing
-
-Use the documentation saved above as a guide for further development and implementation.
+- **Reporting & Analytics:** Build dashboards and reports for monitoring assignments, exams, and student performance.  
+- **User Interface Refinement:** Improve Lightning pages, layouts, and user experience for teachers, students, and guardians.  
+- **Testing & Deployment:** Conduct end-to-end testing and prepare for production deployment.  
 
 ---
 
@@ -73,4 +89,4 @@ Use the documentation saved above as a guide for further development and impleme
 
 ---
 
-> End of README for the Assignment & Exam Management System project. All phase reports and documentation are saved and ready for review or continued development.
+> End of README for the Assignment & Exam Management System project. All phase reports and documentation up to Phase 4 are saved and ready for review or continued development.

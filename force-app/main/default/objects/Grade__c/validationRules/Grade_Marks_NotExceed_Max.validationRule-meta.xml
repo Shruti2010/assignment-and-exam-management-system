@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grade_Marks_NotExceed_Max</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  NOT(ISBLANK(Marks_Obtained__c)),
+  NOT(ISBLANK(Submission__r.Assignment__r.Max_Marks__c)),
+  Marks_Obtained__c &gt; Submission__r.Assignment__r.Max_Marks__c
+)</errorConditionFormula>
+    <errorDisplayField>Marks_Obtained__c</errorDisplayField>
+    <errorMessage>Marks Obtained cannot exceed Assignment Maximum Marks.</errorMessage>
+</ValidationRule>
