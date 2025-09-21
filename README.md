@@ -11,70 +11,89 @@ Understand the challenges faced by educational institutions in managing assignme
 
 *Files Saved:*  
 📂 [Steps_Completion/Phase_1_Completion_Report.pdf](Steps_Completion/Phase_1_Completion_Report.pdf) – PDF report for Phase 1  
-📂 [Steps_Completion/Phase_1_Completion_Readme.md](Steps_Completion/Phase_1_Completion_Readme.md) – Markdown documentation for Phase 1
+📂 [Steps_Completion/Phase_1_Completion_Readme.md](Steps_Completion/Phase_1_Completion_Readme.md) – Markdown documentation for Phase 1  
 
 ---
 
 ## ✅ Phase 2 – Org Setup & Configuration
 
 *Objective:*  
-Set up the Salesforce environment to support the workflows and requirements defined in Phase 1, ensuring secure access and efficient data management for assignment and exam handling.
+Set up the Salesforce environment to support the workflows and requirements defined in Phase 1, ensuring secure access and efficient data management for assignments and exams.
 
 *Files Saved:*  
 📂 [Steps_Completion/Phase_2_Completion_Report.pdf](Steps_Completion/Phase_2_Completion_Report.pdf) – PDF report for Phase 2  
-📂 [Steps_Completion/Phase_2_Completion_Readme.md](Steps_Completion/Phase_2_Completion_Readme.md) – Markdown documentation for Phase 2
+📂 [Steps_Completion/Phase_2_Completion_Readme.md](Steps_Completion/Phase_2_Completion_Readme.md) – Markdown documentation for Phase 2  
 
 ---
 
 ## ✅ Phase 3 – Data Modeling & Relationships
 
 *Objective:*  
-Design data models and define relationships to manage assignments, exams, grades, submissions, and related academic data efficiently.
+Design data models and define relationships to manage assignments, exams, submissions, grades, and related student and course information efficiently.
 
 *Files Saved:*  
 📂 [Steps_Completion/Phase_3_Completion_Report.pdf](Steps_Completion/Phase_3_Completion_Report.pdf) – PDF report for Phase 3  
-📂 [Steps_Completion/Phase_3_Completion_Readme.md](Steps_Completion/Phase_3_Completion_Readme.md) – Markdown documentation for Phase 3
+📂 [Steps_Completion/Phase_3_Completion_Readme.md](Steps_Completion/Phase_3_Completion_Readme.md) – Markdown documentation for Phase 3  
 
 ---
 
 ## ✅ Phase 4 – Process Automation (Admin)
 
 *Objective:*  
-Implement process automation to enforce data integrity, automate notifications, and enhance user efficiency using Salesforce tools such as Validation Rules, Workflow Rules, Flow Builder, and Email Alerts.
-
-*Key Inclusions:*  
-- **Validation Rules:** Applied to Student, Guardian, Assignment, Exam, Grade, and Submission objects to maintain consistent and accurate data entry.  
-- **Workflow Rule:** Automated *Send_Welcome_Email* workflow configured for student onboarding.  
-- **Flow Builder:** Record-triggered flows for assignment grading notifications, assignment reminders, exam timetable notifications, and late submission alerts.  
-- **Email Alerts:** Automated messages linked to workflows and flows for effective communication.  
+Implement automation using Validation Rules, Process Builder, Flow Builder, and Email Alerts to improve data accuracy, notifications, and reminders for assignments and exams.
 
 *Files Saved:*  
 📂 [Steps_Completion/Phase_4_Completion_Report.pdf](Steps_Completion/Phase_4_Completion_Report.pdf) – PDF report for Phase 4  
-📂 [Steps_Completion/Phase_4_Completion_Readme.md](Steps_Completion/Phase_4_Completion_Readme.md) – Markdown documentation for Phase 4
+📂 [Steps_Completion/Phase_4_Completion_Readme.md](Steps_Completion/Phase_4_Completion_Readme.md) – Markdown documentation for Phase 4  
+
+---
+
+## ✅ Phase 5 – Apex Programming (Developer)
+
+*Objective:*  
+Automate business logic, grade calculations, and guardian notifications using Apex classes, triggers, Batch, Queueable, and Scheduled Apex.
+
+*Files Saved:*  
+📂 [Steps_Completion/Phase_5_Completion_Report.pdf](Steps_Completion/Phase_5_Completion_Report.pdf) – PDF report for Phase 5  
+📂 [Steps_Completion/Phase_5_Completion_Readme.md](Steps_Completion/Phase_5_Completion_Readme.md) – Markdown documentation for Phase 5  
+
+*Key Implementations:*  
+- *Apex Classes:* ErrorLogger, GradeTriggerHandler, BatchRecalculateStudentPerformance, GuardianNotificationQueueable, WeeklyPerformanceScheduler  
+- *Triggers:* GradeTrigger on Grade__c (after insert/update/delete)  
+- *Batch Apex:* Recalculates all students’ average marks asynchronously  
+- *Queueable Apex:* Sends automated guardian notifications  
+- *Scheduled Apex:* Executes weekly performance recalculations  
+- *Exception Handling:* All risky operations logged via ErrorLogger  
+- *Test Classes:* Ensure >75% code coverage and validate functionality  
 
 ---
 
 ## 📂 File Locations
 
-The completed phase reports and documentation are saved in the **Steps_Completion** directory:
+The completed phase reports and documentation are saved in the Steps_Completion directory:
 
-- 📂 [Steps_Completion/Phase_1_Completion_Report.pdf](Steps_Completion/Phase_1_Completion_Report.pdf)  
-- 📂 [Steps_Completion/Phase_1_Completion_Readme.md](Steps_Completion/Phase_1_Completion_Readme.md)  
-- 📂 [Steps_Completion/Phase_2_Completion_Report.pdf](Steps_Completion/Phase_2_Completion_Report.pdf)  
-- 📂 [Steps_Completion/Phase_2_Completion_Readme.md](Steps_Completion/Phase_2_Completion_Readme.md)  
-- 📂 [Steps_Completion/Phase_3_Completion_Report.pdf](Steps_Completion/Phase_3_Completion_Report.pdf)  
-- 📂 [Steps_Completion/Phase_3_Completion_Readme.md](Steps_Completion/Phase_3_Completion_Readme.md)  
-- 📂 [Steps_Completion/Phase_4_Completion_Report.pdf](Steps_Completion/Phase_4_Completion_Report.pdf)  
-- 📂 [Steps_Completion/Phase_4_Completion_Readme.md](Steps_Completion/Phase_4_Completion_Readme.md)  
+- 📂 [Phase_1_Completion_Report.pdf](Steps_Completion/Phase_1_Completion_Report.pdf)  
+- 📂 [Phase_1_Completion_Readme.md](Steps_Completion/Phase_1_Completion_Readme.md)  
+- 📂 [Phase_2_Completion_Report.pdf](Steps_Completion/Phase_2_Completion_Report.pdf)  
+- 📂 [Phase_2_Completion_Readme.md](Steps_Completion/Phase_2_Completion_Readme.md)  
+- 📂 [Phase_3_Completion_Report.pdf](Steps_Completion/Phase_3_Completion_Report.pdf)  
+- 📂 [Phase_3_Completion_Readme.md](Steps_Completion/Phase_3_Completion_Readme.md)  
+- 📂 [Phase_4_Completion_Report.pdf](Steps_Completion/Phase_4_Completion_Report.pdf)  
+- 📂 [Phase_4_Completion_Readme.md](Steps_Completion/Phase_4_Completion_Readme.md)  
+- 📂 [Phase_5_Completion_Report.pdf](Steps_Completion/Phase_5_Completion_Report.pdf)  
+- 📂 [Phase_5_Completion_Readme.md](Steps_Completion/Phase_5_Completion_Readme.md)  
+
 ---
 
 ## 📌 Next Steps
 
-With Phase 1 through Phase 4 completed, the project is now ready to progress into:
+With Phases 1–5 completed, the project is ready to proceed with:
 
-- **Reporting & Analytics:** Build dashboards and reports for monitoring assignments, exams, and student performance.  
-- **User Interface Refinement:** Improve Lightning pages, layouts, and user experience for teachers, students, and guardians.  
-- **Testing & Deployment:** Conduct end-to-end testing and prepare for production deployment.  
+- Reporting and analytics for administrators, teachers, and students  
+- User interface optimization and testing  
+- Deployment, training, and ongoing maintenance  
+
+Refer to the saved documentation as a foundation for further development and enhancements.
 
 ---
 
@@ -85,8 +104,8 @@ With Phase 1 through Phase 4 completed, the project is now ready to progress int
 - [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)  
 - [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)  
 - [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)  
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)  
 
 ---
 
-> End of README for the Assignment & Exam Management System project. All phase reports and documentation up to Phase 4 are saved and ready for review or continued development.
+> End of README for the Assignment & Exam Management System project. All phase reports and documentation are saved and ready for review or continued development.
