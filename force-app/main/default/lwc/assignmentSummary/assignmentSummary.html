@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="Assignments Summary" icon-name="standard:assignment">
+        <template if:true={assignments}>
+            <ul class="assignment-list">
+                <template for:each={assignments} for:item="assignment">
+                    <li key={assignment.Id} class="assignment-item">
+                        <strong>{assignment.Name}</strong>
+                        <p>Status: {assignment.Status__c}</p>
+                        <p>Due Date: {assignment.Due_Date__c}</p>
+                    </li>
+                </template>
+            </ul>
+        </template>
+        <template if:true={error}>
+            <p class="error">Error loading assignments.</p>
+        </template>
+        <template if:false={assignments}>
+            <p>No assignments found.</p>
+        </template>
+    </lightning-card>
+</template>
